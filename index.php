@@ -1,4 +1,5 @@
 <?php 
+	echo "index.php";
 	$pid = pcntl_fork(); 
 	if ($pid == -1) { echo "Going to die(could not fork)"; die("could not fork"); }
 	elseif ($pid) {
